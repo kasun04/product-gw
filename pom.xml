@@ -75,16 +75,10 @@
 				<version>${carbon.kernel.version}</version>
 				 <type>zip</type>
             </dependency>
-
             <dependency>
-                <groupId>org.wso2.carbon.gateway</groupId>
-                <artifactId>org.wso2.carbon.gateway</artifactId>
-                <version>${carbon.gateway.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.wso2.carbon.gateway</groupId>
-                <artifactId>org.wso2.carbon.gateway.feature</artifactId>
-				<version>${carbon.gateway.version}</version>
+                <groupId>org.wso2.carbon.camel.mediation</groupId>
+                <artifactId>org.wso2.carbon.camel.mediation.feature</artifactId>
+				<version>${carbon.camel.mediation.version}</version>
 				 <type>zip</type>
             </dependency>
 
@@ -258,7 +252,7 @@
 
         <!-- Dependencies -->
         <carbon.kernel.version>5.0.0-alpha</carbon.kernel.version>
-        <carbon.gateway.version>1.0.0-SNAPSHOT</carbon.gateway.version>
+        <carbon.camel.mediation.version>1.0.0-SNAPSHOT</carbon.camel.mediation.version>
         <carbon.gateway.osgi.version>1.0.0.SNAPSHOT</carbon.gateway.osgi.version>
 
         <osgi.api.version>6.0.0</osgi.api.version>
@@ -281,8 +275,6 @@
     </properties>
 
     <modules>
-        <module>carbon-gw/components/org.wso2.carbon.gateway</module>
-        <module>carbon-gw/features/org.wso2.carbon.gateway.feature</module>
         <module>product</module>
     </modules>
 </project>

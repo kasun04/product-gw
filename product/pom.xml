@@ -54,9 +54,9 @@
             <type>zip</type>
         </dependency>
         <dependency>
-            <groupId>org.wso2.carbon.gateway</groupId>
-            <artifactId>org.wso2.carbon.gateway.feature</artifactId>
-            <version>${carbon.gateway.version}</version>
+            <groupId>org.wso2.carbon.camel.mediation</groupId>
+            <artifactId>org.wso2.carbon.camel.mediation.feature</artifactId>
+            <version>${carbon.camel.mediation.version}</version>
             <type>zip</type>
         </dependency>
         <dependency>
@@ -125,8 +125,8 @@
                                     <version>${carbon.kernel.version}</version>
                                 </feature>
                                 <feature>
-                                    <id>org.wso2.carbon.gateway.feature</id>
-                                    <version>${carbon.gateway.version}</version>
+                                    <id>org.wso2.carbon.camel.mediation.feature</id>
+                                    <version>${carbon.camel.mediation.version}</version>
                                 </feature>
                                 <feature>
                                     <id>org.wso2.carbon.transport.http.netty.feature</id>
@@ -193,8 +193,8 @@
                                     <version>${carbon.kernel.version}</version>
                                 </feature>
                                 <feature>
-                                    <id>org.wso2.carbon.gateway.feature.group</id>
-                                    <version>${carbon.gateway.version}</version>
+                                    <id>org.wso2.carbon.camel.mediation.feature.group</id>
+                                    <version>${carbon.camel.mediation.version}</version>
                                 </feature>
                                 <feature>
                                     <id>org.wso2.carbon.transport.http.netty.feature.group</id>

@@ -21,10 +21,10 @@
        xsi:schemaLocation=" http://www.springframework.org/schema/beans
 classpath:org/springframework/beans/factory/xml/spring-beans-4.1.xsd
 http://camel.apache.org/schema/spring
-classpath:org/wso2/carbon/gateway/xml/camel-spring.xsd">
+classpath:org/wso2/carbon/camel/mediation/camel-spring.xsd">
 
     <bean id="wso2-gw"
-          class="org.wso2.carbon.gateway.internal.mediation.camel.CamelMediationComponent"/>
+          class="org.wso2.carbon.camel.mediation.CamelMediationComponent"/>
 
     <camelContext id="wso2-cc" xmlns="http://camel.apache.org/schema/spring">
 
